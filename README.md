@@ -1,0 +1,3 @@
+This repository contains my solution to Problem Set 2, Question 3 for Statistics 507. The file can be found [here](ps2q3.ipynb). 
+
+This file extracts data from the National Health and Nutrition Examination Survey (administered by the National Center for Health Statistics, Centers for Disease Control and Prevention) from the years 2011 to 2018. Specifically, I create two datasets; one for demographics information, and one for oral health examination information. After extracting this data directly from the NHANES website, I select my desired variables from each of these dataframes, then clean the variables by renaming them and converting columns to appropriate datatypes. The script then finally saves the cleaned dataframes in a pickle format to the local directory.
